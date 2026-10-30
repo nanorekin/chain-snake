@@ -9,7 +9,8 @@ A free, single-file browser snake game with a crypto twist: every coin you colle
 - **Wrap:** walls wrap around, only your own chain is deadly.
 - **Daily:** walls are deadly and the coins appear in the same order for everyone, new every day at 00:00 UTC. Collect 20 coins to clear it and keep your daily streak.
 - **Nano bonus coin:** a glowing XNO coin appears every so often and fades after 8 seconds. It is worth 3 coins and gives 4 seconds of slow motion.
-- **Speed** rises as you collect coins.
+- **Bull Run:** very rarely, once your chain is 10 links or longer, a green BULL coin appears for 10 seconds. Catching it shrinks your chain by up to 5 links (never below 3) and gives +2 coins. It does not affect the daily coin order.
+- **Speed** starts relaxed and rises as you collect coins, up to a limit.
 - **Ranks:** Paper Hands, Hodler (8 coins), Diamond Hands (16), Whale (25), Satoshi (40).
 
 Everything is stored in the player's browser.
